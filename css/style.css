@@ -267,6 +267,16 @@ body {
   margin-top: 30px;
 }
 
+.field::-webkit-input-placeholder {color:#9294a1;}
+.field::-moz-placeholder          {color:#9294a1;}/* Firefox 19+ */
+.field:-moz-placeholder           {color:#9294a1;}/* Firefox 18- */
+.field:-ms-input-placeholder      {color:#9294a1;}
+
+.field:focus::-webkit-input-placeholder {color:#000000;}
+.field:focus::-moz-placeholder:focus {color:#000000;}/* Firefox 19+ */
+.field:focus:-moz-placeholder:focus {color:#000000;}/* Firefox 18- */
+.field:focus:-ms-input-placeholder:focus {color:#000000;}
+
 .application-form label {
   position: relative;
   cursor: pointer;
